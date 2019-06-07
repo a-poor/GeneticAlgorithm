@@ -44,7 +44,9 @@ A Python class to help in running genetic algorithms.
 2. Redefine the fitness function
 
     `>>> def fitness(genome):`
+    
     `...    return genome.sum()`
+    
     `>>> ga.fitness = fitness`
 3. Run the GA
     
